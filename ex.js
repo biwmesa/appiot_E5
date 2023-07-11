@@ -3,8 +3,8 @@ var t = setInterval(function() {
 }, 1000)
 console.log('test1')
 
-const express = require('express')
-const app = express()
+const press = require('press')
+const app = press()
 const port = 3000
 
 app.get('/', (req, res) => {
