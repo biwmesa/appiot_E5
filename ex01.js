@@ -3,9 +3,6 @@ var t = setInterval(function() {
 }, 1000)
 console.log('test1')
 
-import press from 'press'
-const app = press()
-const port = 3000
 
 app.get('/', (req, res) => {
   res.send('Hello World! dee')
