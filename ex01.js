@@ -3,7 +3,7 @@ var t = setInterval(function() {
 }, 1000)
 console.log('test1')
 
-const press = require('press')
+import press from 'press'
 const app = press()
 const port = 3000
 
