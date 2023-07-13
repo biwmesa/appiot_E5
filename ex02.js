@@ -26,7 +26,7 @@ app.get('/', (req, res) => {
   res.send({ ok: 1 })
 })
 app.get('/lists', async (req, res) => {
-  console.log('lists')
+  console.log('show uesr')
   let row = await db('users_advisor')
   res.send({
     datas: row,
